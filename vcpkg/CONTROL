@@ -1,4 +1,0 @@
-Source: ros-dashing-test-launch-testing
-Version: 0.8.1
-Description: Tests for the launch_testing package.
-Build-Depends: ros-dashing-ament-cmake, ros-dashing-ament-index-python, ros-dashing-launch-testing, ros-dashing-launch, ros-dashing-ament-cmake-python, ros-dashing-ament-cmake-gtest, ros-dashing-ament-lint-auto, ros-dashing-ament-cmake-pytest, ros-dashing-ament-lint-common, ros-dashing-ros-workspace
