@@ -1,4 +1,0 @@
-Source: ros-dashing-launch-testing-ament-cmake
-Version: 0.8.4
-Description: A package providing cmake functions for running launch tests from the build.
-Build-Depends:
