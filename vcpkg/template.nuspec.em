@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-launch-testing</id>
-    <version>0.8.4</version>
-    <title>ros-dashing-launch-testing</title>
-    <authors>Pete Baughman <pete.baughman@apex.ai></authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A package to create tests which involve launch files and multiple processes.</description>
-<dependencies>
-      <dependency id="ros-dashing-ament-index-python"/>
-      <dependency id="ros-dashing-launch"/>
-      <dependency id="ros-dashing-ros-workspace"/>
+    <description>@(Description)</description>
+    <dependencies>
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
