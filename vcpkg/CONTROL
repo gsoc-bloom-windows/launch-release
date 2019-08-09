@@ -1,4 +1,0 @@
-Source: ros-dashing-launch
-Version: 0.8.4
-Description: The ROS launch tool.
-Build-Depends:
