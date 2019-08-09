@@ -1,4 +1,0 @@
-Source: ros-dashing-test-launch-testing
-Version: 0.8.1
-Description: Tests for the launch_testing package.
-Build-Depends:
